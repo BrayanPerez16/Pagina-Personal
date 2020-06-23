@@ -231,6 +231,9 @@ body{
 #margen{
     margin-right: 10px;
 }
+#margena{
+    margin-top: 25px;
+}
 
 #menu{
     opacity: 0;
