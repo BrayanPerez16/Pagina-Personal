@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 *{
+    font-size: 22px;
+    font-family: 'Barlow Condensed', sans-serif;  
     margin: 0;
     padding: 0;
 }
@@ -156,6 +158,7 @@ body{
     justify-content: center;
 }
 
+
 /*boton*/
 #btn{
     position: relative;
@@ -168,6 +171,7 @@ body{
     font-size: 24px;
     overflow: hidden;
     transition: 0.2s;
+    border: solid 1px;
 }
 #btn:hover{
     color: orange;
