@@ -306,10 +306,16 @@ body.loaded #menu {
     .audioi{
         display: none;
     }
+    .footer{
+        height: 1050px;
+    }
 }
 @media(min-width: 576px) and (max-width: 767px){
     .audioi{
         display: none;
+    }
+    .footer{
+        height: 1050px;
     }
 }
 @media(min-width: 844px) and (max-width: 991px){
@@ -324,6 +330,11 @@ body.loaded #menu {
 }
 @media(min-width: 768px) and (max-width: 843px){
     .audioi{
+        display: none;
+    }
+}
+@media(min-width: 576px) and (max-width: 991px){
+    .tarjeta{
         display: none;
     }
 }
