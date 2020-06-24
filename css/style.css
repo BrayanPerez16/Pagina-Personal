@@ -285,11 +285,45 @@ body.loaded #menu {
 .footer {
     background: orange;
     width: 100%;
-    height: 100%;
+    height: 800px;
 }
 
-.audio {
+.audioi {
     position: absolute;
     z-index: 3;
     right: 15px;
+    top: 100px;
+}
+.audioi {
+    display: flex;
+    justify-content: center;
+}
+.iconos{
+    margin: 10px;
+}
+
+@media(max-width: 575px){
+    .audioi{
+        display: none;
+    }
+}
+@media(min-width: 576px) and (max-width: 767px){
+    .audioi{
+        display: none;
+    }
+}
+@media(min-width: 844px) and (max-width: 991px){
+    .audioia{
+        display: none;
+    }
+}
+@media(min-width: 992px){
+    .audioia{
+        display: none;
+    }
+}
+@media(min-width: 768px) and (max-width: 843px){
+    .audioi{
+        display: none;
+    }
 }

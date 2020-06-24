@@ -679,7 +679,6 @@ Header section
 	font-size: 18px;
 	font-weight: 700;
 	color: #fff;
-	background: #10ddb4;
 	border-radius: 50%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -856,7 +855,6 @@ Video section
 
 .video-section {
 	padding: 70px 0;
-	background: #fee3c8;
 	text-align: center;
 }
 
@@ -1289,7 +1287,6 @@ Game Page
  ---------------*/
 
 .game-section {
-	background: #fee3c8;
 	padding: 118px 0 60px;
 	overflow: hidden;
 }
@@ -1865,6 +1862,9 @@ Responsive
     padding: 0;
 }
 
+body.loaded{
+	background-color: black;
+}
 h1,
 h2,
 h3 {
