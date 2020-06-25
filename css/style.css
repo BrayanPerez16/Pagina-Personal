@@ -307,7 +307,10 @@ body.loaded #menu {
         display: none;
     }
     .footer{
-        height: 1100px;
+        height: auto;
+    }
+    #textof{
+        height: auto;
     }
 }
 @media(min-width: 576px) and (max-width: 767px){
@@ -315,7 +318,10 @@ body.loaded #menu {
         display: none;
     }
     .footer{
-        height: 1100px;
+        height: auto;
+    }
+    #textof{
+        height: auto;
     }
 }
 @media(min-width: 844px) and (max-width: 991px){
