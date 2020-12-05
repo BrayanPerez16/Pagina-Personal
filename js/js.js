@@ -31,7 +31,7 @@ $("#btn").click(function(){
         $("#barra2").css("width", progreso +
         "%").attr("aria-valuenow",
         progreso).text(progreso+ "%");
-        if(progreso>=40){
+        if(progreso>=50){
             clearInterval(intervalo);
         }
     },100);
@@ -189,7 +189,7 @@ $("#btn").click(function(){
         $("#barra14").css("width", progreso +
         "%").attr("aria-valuenow",
         progreso).text(progreso+ "%");
-        if(progreso>=40){
+        if(progreso>=60){
             clearInterval(intervalo);
         }
     },100);
@@ -202,7 +202,7 @@ $("#btn").click(function(){
         $("#barra15").css("width", progreso +
         "%").attr("aria-valuenow",
         progreso).text(progreso+ "%");
-        if(progreso>=20){
+        if(progreso>=50){
             clearInterval(intervalo);
         }
     },100);
@@ -228,7 +228,7 @@ $("#btn").click(function(){
         $("#barra17").css("width", progreso +
         "%").attr("aria-valuenow",
         progreso).text(progreso+ "%");
-        if(progreso>=50){
+        if(progreso>=70){
             clearInterval(intervalo);
         }
     },100);
@@ -267,7 +267,7 @@ $("#btn").click(function(){
         $("#barra20").css("width", progreso +
         "%").attr("aria-valuenow",
         progreso).text(progreso+ "%");
-        if(progreso>=50){
+        if(progreso>=60){
             clearInterval(intervalo);
         }
     },100);
@@ -280,7 +280,7 @@ $("#btn").click(function(){
         $("#barra21").css("width", progreso +
         "%").attr("aria-valuenow",
         progreso).text(progreso+ "%");
-        if(progreso>=50){
+        if(progreso>=70){
             clearInterval(intervalo);
         }
     },100);
@@ -293,7 +293,7 @@ $("#btn").click(function(){
         $("#barra22").css("width", progreso +
         "%").attr("aria-valuenow",
         progreso).text(progreso+ "%");
-        if(progreso>=0){
+        if(progreso>=60){
             clearInterval(intervalo);
         }
     },100);
